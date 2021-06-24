@@ -9,6 +9,16 @@ package com.mycompany.examen.objetos;
  *
  * @author Seba-PC
  */
-public class Alumno {
+public class Alumno extends Persona {
+    private String matricula;
+
+    public String getMatricula() {
+        return matricula;
+    }
+
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
+    }
+    
     
 }
